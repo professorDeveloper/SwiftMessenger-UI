@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFA990292C197C650002350E /* SoplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA990282C197C650002350E /* SoplayApp.swift */; };
+		FFA9902B2C197C650002350E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA9902A2C197C650002350E /* ContentView.swift */; };
+		FFA9902D2C197C670002350E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA9902C2C197C670002350E /* Assets.xcassets */; };
+		FFA990302C197C670002350E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA9902F2C197C670002350E /* Preview Assets.xcassets */; };
+		FFA9903A2C197C670002350E /* SoplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA990392C197C670002350E /* SoplayTests.swift */; };
+		FFA990442C197C670002350E /* SoplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA990432C197C670002350E /* SoplayUITests.swift */; };
+		FFA990462C197C670002350E /* SoplayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA990452C197C670002350E /* SoplayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFA990362C197C670002350E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA9901D2C197C650002350E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA990242C197C650002350E;
+			remoteInfo = Soplay;
+		};
+		FFA990402C197C670002350E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA9901D2C197C650002350E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA990242C197C650002350E;
+			remoteInfo = Soplay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFA990252C197C650002350E /* Soplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA990282C197C650002350E /* SoplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoplayApp.swift; sourceTree = "<group>"; };
+		FFA9902A2C197C650002350E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFA9902C2C197C670002350E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFA9902F2C197C670002350E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFA990352C197C670002350E /* SoplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA990392C197C670002350E /* SoplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoplayTests.swift; sourceTree = "<group>"; };
+		FFA9903F2C197C670002350E /* SoplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA990432C197C670002350E /* SoplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoplayUITests.swift; sourceTree = "<group>"; };
+		FFA990452C197C670002350E /* SoplayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoplayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFA990222C197C650002350E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA990322C197C670002350E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA9903C2C197C670002350E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFA9901C2C197C650002350E = {
+			isa = PBXGroup;
+			children = (
+				FFA990272C197C650002350E /* Soplay */,
+				FFA990382C197C670002350E /* SoplayTests */,
+				FFA990422C197C670002350E /* SoplayUITests */,
+				FFA990262C197C650002350E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFA990262C197C650002350E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA990252C197C650002350E /* Soplay.app */,
+				FFA990352C197C670002350E /* SoplayTests.xctest */,
+				FFA9903F2C197C670002350E /* SoplayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA990272C197C650002350E /* Soplay */ = {
+			isa = PBXGroup;
+			children = (
+				FFA990282C197C650002350E /* SoplayApp.swift */,
+				FFA9902A2C197C650002350E /* ContentView.swift */,
+				FFA9902C2C197C670002350E /* Assets.xcassets */,
+				FFA9902E2C197C670002350E /* Preview Content */,
+			);
+			path = Soplay;
+			sourceTree = "<group>";
+		};
+		FFA9902E2C197C670002350E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9902F2C197C670002350E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFA990382C197C670002350E /* SoplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFA990392C197C670002350E /* SoplayTests.swift */,
+			);
+			path = SoplayTests;
+			sourceTree = "<group>";
+		};
+		FFA990422C197C670002350E /* SoplayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFA990432C197C670002350E /* SoplayUITests.swift */,
+				FFA990452C197C670002350E /* SoplayUITestsLaunchTests.swift */,
+			);
+			path = SoplayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFA990242C197C650002350E /* Soplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA990492C197C670002350E /* Build configuration list for PBXNativeTarget "Soplay" */;
+			buildPhases = (
+				FFA990212C197C650002350E /* Sources */,
+				FFA990222C197C650002350E /* Frameworks */,
+				FFA990232C197C650002350E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soplay;
+			productName = Soplay;
+			productReference = FFA990252C197C650002350E /* Soplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFA990342C197C670002350E /* SoplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA9904C2C197C670002350E /* Build configuration list for PBXNativeTarget "SoplayTests" */;
+			buildPhases = (
+				FFA990312C197C670002350E /* Sources */,
+				FFA990322C197C670002350E /* Frameworks */,
+				FFA990332C197C670002350E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA990372C197C670002350E /* PBXTargetDependency */,
+			);
+			name = SoplayTests;
+			productName = SoplayTests;
+			productReference = FFA990352C197C670002350E /* SoplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFA9903E2C197C670002350E /* SoplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA9904F2C197C670002350E /* Build configuration list for PBXNativeTarget "SoplayUITests" */;
+			buildPhases = (
+				FFA9903B2C197C670002350E /* Sources */,
+				FFA9903C2C197C670002350E /* Frameworks */,
+				FFA9903D2C197C670002350E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA990412C197C670002350E /* PBXTargetDependency */,
+			);
+			name = SoplayUITests;
+			productName = SoplayUITests;
+			productReference = FFA9903F2C197C670002350E /* SoplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA9901D2C197C650002350E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FFA990242C197C650002350E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					FFA990342C197C670002350E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FFA990242C197C650002350E;
+					};
+					FFA9903E2C197C670002350E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FFA990242C197C650002350E;
+					};
+				};
+			};
+			buildConfigurationList = FFA990202C197C650002350E /* Build configuration list for PBXProject "Soplay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFA9901C2C197C650002350E;
+			productRefGroup = FFA990262C197C650002350E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA990242C197C650002350E /* Soplay */,
+				FFA990342C197C670002350E /* SoplayTests */,
+				FFA9903E2C197C670002350E /* SoplayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFA990232C197C650002350E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA990302C197C670002350E /* Preview Assets.xcassets in Resources */,
+				FFA9902D2C197C670002350E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA990332C197C670002350E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA9903D2C197C670002350E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA990212C197C650002350E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA9902B2C197C650002350E /* ContentView.swift in Sources */,
+				FFA990292C197C650002350E /* SoplayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA990312C197C670002350E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA9903A2C197C670002350E /* SoplayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA9903B2C197C670002350E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA990462C197C670002350E /* SoplayUITestsLaunchTests.swift in Sources */,
+				FFA990442C197C670002350E /* SoplayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFA990372C197C670002350E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFA990242C197C650002350E /* Soplay */;
+			targetProxy = FFA990362C197C670002350E /* PBXContainerItemProxy */;
+		};
+		FFA990412C197C670002350E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFA990242C197C650002350E /* Soplay */;
+			targetProxy = FFA990402C197C670002350E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FFA990472C197C670002350E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFA990482C197C670002350E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFA9904A2C197C670002350E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soplay/Preview Content\"";
+				DEVELOPMENT_TEAM = X43DL83935;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = soplay.Soplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFA9904B2C197C670002350E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soplay/Preview Content\"";
+				DEVELOPMENT_TEAM = X43DL83935;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = soplay.Soplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFA9904D2C197C670002350E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X43DL83935;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = soplay.SoplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soplay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soplay";
+			};
+			name = Debug;
+		};
+		FFA9904E2C197C670002350E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X43DL83935;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = soplay.SoplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soplay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soplay";
+			};
+			name = Release;
+		};
+		FFA990502C197C670002350E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X43DL83935;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = soplay.SoplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soplay;
+			};
+			name = Debug;
+		};
+		FFA990512C197C670002350E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X43DL83935;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = soplay.SoplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soplay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFA990202C197C650002350E /* Build configuration list for PBXProject "Soplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA990472C197C670002350E /* Debug */,
+				FFA990482C197C670002350E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA990492C197C670002350E /* Build configuration list for PBXNativeTarget "Soplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA9904A2C197C670002350E /* Debug */,
+				FFA9904B2C197C670002350E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA9904C2C197C670002350E /* Build configuration list for PBXNativeTarget "SoplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA9904D2C197C670002350E /* Debug */,
+				FFA9904E2C197C670002350E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA9904F2C197C670002350E /* Build configuration list for PBXNativeTarget "SoplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA990502C197C670002350E /* Debug */,
+				FFA990512C197C670002350E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFA9901D2C197C650002350E /* Project object */;
+}
