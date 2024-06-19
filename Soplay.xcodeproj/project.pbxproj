@@ -14,6 +14,8 @@
 		FFA9903A2C197C670002350E /* SoplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA990392C197C670002350E /* SoplayTests.swift */; };
 		FFA990442C197C670002350E /* SoplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA990432C197C670002350E /* SoplayUITests.swift */; };
 		FFA990462C197C670002350E /* SoplayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA990452C197C670002350E /* SoplayUITestsLaunchTests.swift */; };
+		FFC56C512C22F634009D5A09 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC56C502C22F634009D5A09 /* Home.swift */; };
+		FFC56C542C22FAC2009D5A09 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC56C532C22FAC2009D5A09 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FFA9903F2C197C670002350E /* SoplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA990432C197C670002350E /* SoplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoplayUITests.swift; sourceTree = "<group>"; };
 		FFA990452C197C670002350E /* SoplayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoplayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFC56C502C22F634009D5A09 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FFC56C532C22FAC2009D5A09 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		FFA990272C197C650002350E /* Soplay */ = {
 			isa = PBXGroup;
 			children = (
+				FFC56C522C22FAB6009D5A09 /* Model */,
+				FFC56C4D2C22F546009D5A09 /* View */,
 				FFA990282C197C650002350E /* SoplayApp.swift */,
 				FFA9902A2C197C650002350E /* ContentView.swift */,
 				FFA9902C2C197C670002350E /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				FFA990452C197C670002350E /* SoplayUITestsLaunchTests.swift */,
 			);
 			path = SoplayUITests;
+			sourceTree = "<group>";
+		};
+		FFC56C4D2C22F546009D5A09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFC56C502C22F634009D5A09 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FFC56C522C22FAB6009D5A09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFC56C532C22FAC2009D5A09 /* Tab.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFA9902B2C197C650002350E /* ContentView.swift in Sources */,
+				FFC56C512C22F634009D5A09 /* Home.swift in Sources */,
 				FFA990292C197C650002350E /* SoplayApp.swift in Sources */,
+				FFC56C542C22FAC2009D5A09 /* Tab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "11D945F6-4BA2-442B-BC46-6454B725C518"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E830B329-6F68-4B8A-A97C-B3BEC168DB6E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Soplay/View/Home.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "ExpandableNavigationBar(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E830B329-6F68-4B8A-A97C-B3BEC168DB6E - d2825c90d4df3156"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of SwiftUI.View.safeAreaPadding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in Soplay.Home.ExpandableNavigationBar(Swift.String) -&gt; some"
+                  moduleName = "Soplay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saikou/IosProjects/Soplay/Soplay/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "980">
+               </Location>
+               <Location
+                  uuid = "E830B329-6F68-4B8A-A97C-B3BEC168DB6E - 536240eb6fbd67bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt; in closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of SwiftUI.View.safeAreaPadding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in Soplay.Home.ExpandableNavigationBar(Swift.String) -&gt; some"
+                  moduleName = "Soplay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saikou/IosProjects/Soplay/Soplay/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "604">
+               </Location>
+               <Location
+                  uuid = "E830B329-6F68-4B8A-A97C-B3BEC168DB6E - d2825c90d4df3156"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of SwiftUI.View.safeAreaPadding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in Soplay.Home.ExpandableNavigationBar(Swift.String) -&gt; some"
+                  moduleName = "Soplay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saikou/IosProjects/Soplay/Soplay/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1232">
+               </Location>
+               <Location
+                  uuid = "E830B329-6F68-4B8A-A97C-B3BEC168DB6E - 536240eb6fbd67bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt; in closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of SwiftUI.View.safeAreaPadding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in Soplay.Home.ExpandableNavigationBar(Swift.String) -&gt; some"
+                  moduleName = "Soplay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saikou/IosProjects/Soplay/Soplay/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "812">
+               </Location>
+               <Location
+                  uuid = "E830B329-6F68-4B8A-A97C-B3BEC168DB6E - 1d3cc2443e9933a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Soplay.Home.ExpandableNavigationBar(Swift.String) -&gt; some"
+                  moduleName = "Soplay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saikou/IosProjects/Soplay/Soplay/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "E830B329-6F68-4B8A-A97C-B3BEC168DB6E - d2825c90d4df3156"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of SwiftUI.View.safeAreaPadding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in Soplay.Home.ExpandableNavigationBar(Swift.String) -&gt; some"
+                  moduleName = "Soplay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saikou/IosProjects/Soplay/Soplay/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "632">
+               </Location>
+               <Location
+                  uuid = "E830B329-6F68-4B8A-A97C-B3BEC168DB6E - 1d3cc2443e9933a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Soplay.Home.ExpandableNavigationBar(Swift.String) -&gt; some"
+                  moduleName = "Soplay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saikou/IosProjects/Soplay/Soplay/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "E830B329-6F68-4B8A-A97C-B3BEC168DB6E - d2825c90d4df3156"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of SwiftUI.View.safeAreaPadding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in Soplay.Home.ExpandableNavigationBar(Swift.String) -&gt; some"
+                  moduleName = "Soplay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saikou/IosProjects/Soplay/Soplay/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "852">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30269D83-725D-4556-949F-EA1ED340E8E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Soplay/View/Home.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "30269D83-725D-4556-949F-EA1ED340E8E9 - b4b4ebc4bb5d7dc9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.animation&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(_: Swift.Optional&lt;SwiftUI.Animation&gt;, value: &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Soplay.Home.body.getter : some"
+                  moduleName = "Soplay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saikou/IosProjects/Soplay/Soplay/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "956">
+               </Location>
+               <Location
+                  uuid = "30269D83-725D-4556-949F-EA1ED340E8E9 - b4b4ebc4bb5d7dc9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.animation&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Equatable&gt;(_: Swift.Optional&lt;SwiftUI.Animation&gt;, value: &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Soplay.Home.body.getter : some"
+                  moduleName = "Soplay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saikou/IosProjects/Soplay/Soplay/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
